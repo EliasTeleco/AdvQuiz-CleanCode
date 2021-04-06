@@ -117,6 +117,7 @@ public class QuestionPresenter implements QuestionContract.Presenter {
     boolean isCorrect = model.isCorrectOption(option);
     if(isCorrect) {
       view.get().updateReply(isCorrect);
+
       state.answer = model.getAnswer();
       state.cheatEnabled=false;
     } else {

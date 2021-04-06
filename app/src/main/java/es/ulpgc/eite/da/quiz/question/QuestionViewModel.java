@@ -17,4 +17,5 @@ public class QuestionViewModel {
   public int option;
 
   public boolean answerCheated;
+    public String answer ="";
 }
